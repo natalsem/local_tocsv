@@ -1,4 +1,4 @@
-Preparation of a CSV file for bulk user
+Preparation of a CSV file for bulk user creation
 ==================================
 
 Requirements
