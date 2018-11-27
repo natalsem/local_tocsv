@@ -96,11 +96,11 @@ function create_csv_file($users){
 
 }
 function create_file($result){
-    $test_name='test_'.date('Ymd-Hms').'.csv';
+    $filename='users_'.date('Y-m-d-H-m').'.csv';
     header("Cache-Control: must-revalidate, post-check=0, pre-check=0\r\n");
     header("Cache-Control: private\r\n");
     header ("Content-Type: text/plain; charset=UTF-8\r\n");
-    header("Content-Disposition: attachment; filename=\".$test_name\"\r\n");
+    header("Content-Disposition: attachment; filename=\".$filename\"\r\n");
     echo $result;
     die();
 }
