@@ -24,6 +24,7 @@ This form will help you prepare a CSV file for bulk user creation of users.
 4. Click download to get a csv file.
 5. By uploading thiw CSV via 
 >Users -> Accounts -> Upload users 
+
 passwords will be generated automatically and sent to emails.
 
 Author
