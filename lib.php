@@ -96,7 +96,7 @@ function create_csv_file($users){
 
 }
 function create_file($result){
-    $filename='users_'.date('Y-m-d-H-m').'.csv';
+    $filename='users_'.date('Y-m-d_Hms').'.csv';
     header("Cache-Control: must-revalidate, post-check=0, pre-check=0\r\n");
     header("Cache-Control: private\r\n");
     header ("Content-Type: text/plain; charset=UTF-8\r\n");
