@@ -53,13 +53,11 @@ if(has_capability('moodle/site:config', $sitecontext)) {
     if($data=$form->get_data()){
         $namelist = $data->namelist;
         $lines=explode("\n",$namelist);
-//        var_dump($data);
         $options=array('city'=>$data->city,'country'=>$data->country,'department'=>$data->department);
         $users= prepare_usersdata($lines, $options);
         $file_time=date('Ymdhis');
         $csv = create_csv_file($users);
         create_file($csv);
-
     }else{
         echo $OUTPUT->header();
         $form->display();
