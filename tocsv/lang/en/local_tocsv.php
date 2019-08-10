@@ -30,13 +30,16 @@
 $string['form_header'] = 'Quick preparation of a CSV-file for bulk user creation';
 $string['gotoupload'] = 'Load the resulting CSV-file to the form ';
 $string['header'] = 'Quick preparation of a CSV-file';
-$string['header_help'] = 'This form will help you prepare a CSV file for bulk user creation of users. Passwords will be generated automatically and than sent to them in emails.';
+$string['header_help'] = 'This form will help you prepare a CSV file for bulk user creation of users. 
+Passwords will be generated automatically and than sent to them in emails.';
 $string['missingnamelist'] = 'Input at least one user\'s data!';
 $string['namelist'] = 'Names and email';
 $string['namelist_header'] = '<br />(each user with a new line)';
 $string['namelist_help'] = 'Passwords will be sent to user\'s email.';
 $string['pluginname'] = 'Preparation CSV for bulk user creation';
 $string['title'] = 'Preparation of a CSV-file';
+$string['defaultname1'] = 'John Doe, jdoe@example.com';
+$string['defaultname2'] = 'Jane Doe, janedoe@example.com';
 
 
 

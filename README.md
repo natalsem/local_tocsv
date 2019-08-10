@@ -7,7 +7,7 @@ Requirements
 
 Installation
 ------------
-Copy the this folder into your Moodle /local directory and visit your Admin Notification page to complete the installation.
+Copy the 'tocsv' folder into your Moodle /local directory and visit your Admin Notification page to complete the installation.
 
 Once installed, you should see a new option in the Administration Block:
 > Site administration -> Preparation CSV for bulk user creation
